@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+.home_container{
+    min-height: 100vh;
+    background: linear-gradient(to right top, #65dfc9, #6cdbed);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.glass_container{
+    background: white;
+    min-height: 70vh;
+    width: 70%;
+    background: linear-gradient(to right bottom, rgba(255,255,255,0.7), rgba(255,255,255,0.3));
+    border-radius: 1rem;
+    z-index:3;
+    backdrop-filter: blur(2rem);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family:Raleway-semibold, "Raleway-semibold", Raleway, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.glass_container>h1{
+    text-align: center;
+}
+
+.glass_container > h1 > span{
+    color: #e31b6d;
+}
+
+.home_btns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0px;
+}
+
+.resume_btn, .work_btn{
+    background: none;
+    border: 2px solid black;
+    font-size: 18px;
+    font-family: Raleway;
+    cursor: pointer;
+    text-align: center;
+    margin: 0px 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.resume_btn:hover, .work_btn:hover{
+    outline:none;
+    color: white;
+    border-color: #e31b6d;
+    background-color: #e31b6d;
+    transition: all 0.5s ease 0s;
+}
+
+.right_arrow{
+    transform: rotate(0deg);
+}
+.work_btn:hover .right_arrow{
+    transform: rotate(90deg);
+    transition: transform 0.5s ease 0s;
+}
+
+@media screen and (max-width: 780px){
+    .glass_container > h1 {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .glass_container{
+        min-height: 50vh;
+    }
+}
+
+@media screen and (max-width:476px){
+    .glass_container{
+        min-height: 30vh;
+        width: 90%;
+    }
+    .glass_container > h1 {
+        font-size: 18px;
+    }
+}
+
+
+@media screen and (max-width:250px){
+   
+    .glass_container > h1 {
+        font-size: 8px;
+    }
+
+}

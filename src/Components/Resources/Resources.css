@@ -1,0 +1,131 @@
+
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
+
+
+#resources{
+    background-image: url('../assets/resources-img.jpeg');
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    font-family: Raleway;
+}
+
+#resources > h1{
+    padding: 10px 0px;
+    text-align: center;
+    font-weight: 600;
+    color:#fff;
+}
+
+#resources > p{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+.resources_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.roadmaps{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 20px 0px;
+}
+.roadmaps>h5{
+    text-decoration: underline;
+    text-align: center;
+}
+.roadmaps>h5:hover{
+    color:#e31b6d;
+}
+.roadmap_links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.roadmap_links a{
+    width: 200px;
+    height: 50px;
+    border: 2px solid #fff;
+    background: none;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 20px 10px 0px auto;
+    padding: 10px 10px;
+    text-decoration: none;
+    text-align: center;
+}
+.roadmap_links a:hover{
+    color: #fff;
+    border: 2px solid #04C2C9;
+    background: #04C2C9;
+    transition: all 0.5s ease;
+}
+small{
+    margin: 10px 0px;
+    font-weight: 600;
+}
+small a{
+    text-decoration: none;
+    color:#e31b6d;
+}
+small a:hover{
+    color: #04C2C9;
+    text-decoration: underline;
+}
+
+
+/*-----------for yt, books, podcast, docs,websites--------*/
+
+.resource{
+    width: 70%;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0px 20px 0px;
+}
+
+.anchor_tags{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.anchor_tags a{
+    color: black;
+    text-decoration: none;
+    margin: 10px 0px;
+}
+
+.anchor_tags a:hover{
+    text-decoration: underline;
+    color: #e31b6d;
+}
+
+.resource p{
+    color: red;
+    text-align: center;
+}
+
+
+@media screen and (max-width:700px){
+    .roadmap_links{
+        flex-direction: column;
+    }
+}
+
+
+
