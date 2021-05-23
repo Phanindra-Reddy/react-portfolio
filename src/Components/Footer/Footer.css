@@ -1,0 +1,15 @@
+
+.footer{
+    width: 100%;
+    height: 60px;
+    background: #1B242F;
+    position: absolute;
+}
+
+.footer> p{
+    color: white;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+    font-weight: lighter;
+    text-align: center;
+    padding: 20px 0px;
+}
