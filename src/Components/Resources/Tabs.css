@@ -1,0 +1,39 @@
+
+ /* color: #e31b6d; */
+
+.tabs{
+    width: 70%;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.link{
+    text-decoration: none;
+    color: #e31b6d;
+    margin-right: 10px;
+}
+.link:hover{
+    text-decoration: underline;
+    color: black;
+}
+.icon{
+    margin-right: 5px;
+}
+
+@media screen and (max-width:700px){
+    .tabs{
+        width: 90%;
+    }
+    .icon{
+        margin-right: 0px;
+    }
+
+}
+
