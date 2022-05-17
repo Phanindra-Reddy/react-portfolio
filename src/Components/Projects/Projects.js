@@ -37,6 +37,8 @@ const Projects = () => {
                     setProjects(projects_list.javascript)
                 }else if(category === 'react'){
                     setProjects(projects_list.react)
+                }else{
+                    setProjects(projects_list.nextjs)
                 }
                 
             })
@@ -61,6 +63,7 @@ const Projects = () => {
                     <option  value="html_css">HTML / CSS</option>
                     <option  value="javascript">JavaScript</option>
                     <option  value="react">React</option>
+                    <option  value="nextjs">Next.js</option>
                 </select>
                 
             </div>
